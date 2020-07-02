@@ -1,0 +1,28 @@
+
+.logo
+{
+ position: relative;
+ width: 300px;
+ height: 300px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 40px;
+ transition: 0.5s;
+
+}
+
+.logo .logoTip
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    
+}
+
+.logo .logoTip img{
+    max-width: 100%;
+}
